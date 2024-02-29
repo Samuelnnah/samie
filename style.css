@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","Quicksand", sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+img{
+    width: 300px;
+    margin-left: 38%;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+img:hover{
+    border-radius: 30px;
+    box-shadow: 0px -1px 27px 5px rgba(0,0,0,0.6);
+    /* transform: scale(1.2); */
+}
+.text h1{
+    /* margin-left: 35%; */
+    margin-top: 20px;
+    text-align: center;
+}
+.text p{
+    /* margin-left: 32%; */
+    text-align: center;
+    font-size: 20px;
+    color: rgb(25, 209, 209);
+}
+.text #countdown{
+    padding-left: 32%;
+    margin-top: 40px;
+    font-size: 70px;
+    box-shadow: 0px -1px 27px 5px rgba(0,0,0,0.6);
+}
